@@ -1,5 +1,9 @@
 a = 10
-b = 'abc'
-c = 10.12
 
 print("type is ",type(a))
+
+print("id is ",id(a))
+
+print("range function")
+for i in range(1, 10, 2):
+    print(i, end=" ")

@@ -1,11 +1,19 @@
-print("=== i) BREAK STATEMENT ===")
-print("Searching for number 5 in range 1 to 10...")
-
+print("Example of break statement:")
 for i in range(1, 11):
-    if i == 5:
-        print(f"-> Found {i}! Breaking out of the loop.")
-        break  # Loop ends immediately
-    print(f"Processing number: {i}")
+    if i == 6:
+        break  
+    print(i)
 
-print("Loop finished (terminated early by break).\n")
-print("-" * 50 + "\n")
+
+print("\nExample of continue statement:")
+for i in range(1, 11):
+    if i == 6:
+        continue   
+    print(i)
+
+
+print("\nExample of pass statement:")
+for i in range(1, 6):
+    if i == 3:
+        pass   
+    print(i)

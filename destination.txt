@@ -1,0 +1,2 @@
+Hello, this is a Python file handling program.
+We are performing write and read operations.

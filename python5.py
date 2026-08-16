@@ -3,6 +3,8 @@ print("I. Arithmetic Operators\n")
 a=10
 b=5
 
+print("value of a=",a)
+print("value of b=",b)
 print("Addition:",a+b)
 print("Subtraction:",a-b)
 print("Multiplication:",a*b)

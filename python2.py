@@ -26,8 +26,5 @@ print(type(b))
 b = bytearray(a)
 print(type(b))
 
-a = [1, 2, 3, 4, 5]
-print(type(a))
-
 a = (1, 2, 3, 4, 5)
 print(type(a))

@@ -12,5 +12,5 @@ print("String to Float:",x)
 y = str(d)
 print("Integer to String:",y)
 
-z = bool(c)
+z = int(x)
 print("Float to String:",z)

@@ -1,4 +1,4 @@
-file = open("sample.txt", "r")
+file = open("s.txt", "r")
 
 # Read contents of file
 data = file.read()
